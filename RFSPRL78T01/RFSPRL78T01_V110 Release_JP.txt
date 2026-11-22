@@ -1,0 +1,19 @@
+Renesas Flash Sample Program Type 01(RFSP Type 01) for RL78/G15,G16(V1.10) 使用時の注意事項
+
+〇ファイル構成
+  RFSPRL78T01
+  + include : RFSPインクルード・ファイル群
+  + source  : RFSPソース・ファイル群
+  + userown : RFSPユーザ処理ファイル
+  + sample  : サンプル・プログラム群
+              CF/codeflash     : コード・フラッシュ・メモリ制御用サンプル
+              DF/dataflash     : データ・フラッシュ・メモリ制御用サンプル
+
+
+〇対応コンパイラ
+  CC-RL V1.10.00以降 (CS+ for CC/e2studio)
+  IAR V4.21以降 (IAR EW)
+  ※ 統合開発環境、およびコンパイラは、対象デバイスをサポートしている必要があります。
+
+
+以上
